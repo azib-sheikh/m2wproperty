@@ -2,7 +2,7 @@
 
 @extends('layouts.app')
 @push('title')
-    Home
+    m2wproperty | Home
 @endpush
 @section('content')
         <!-- Hero section start -->
