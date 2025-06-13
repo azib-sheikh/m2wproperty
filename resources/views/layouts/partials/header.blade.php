@@ -44,8 +44,8 @@
                     <div class="col-span-12">
                         <div class="flex flex-wrap items-center justify-between">
                             <a href="index.html" class="block">
-                                <img class="w-full h-full white-logo" src="https://htmldemo.net/bery/bery/assets//images/logo/logo-white.png" loading="lazy" width="99" height="46" alt="brand logo">
-                                <img class="w-full h-full hidden dark-logo" src="https://htmldemo.net/bery/bery/assets//images/logo/logo.svg" loading="lazy" width="99" height="46" alt="brand logo">
+                                <img class="white-logo" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="70px" height="70px" alt="brand logo">
+                                <img class=" hidden dark-logo" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="70px" height="70px" alt="brand logo">
                             </a>
                             <nav class="flex flex-wrap items-center">
                                 <ul class="hidden lg:flex flex-wrap items-center font-lora text-[16px] xl:text-[18px] leading-none text-black">
