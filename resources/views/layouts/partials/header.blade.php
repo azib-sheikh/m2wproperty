@@ -78,7 +78,7 @@
                                     </li>
                                     <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
 
-                                        <a href="contact-us.html" class="sticky-dark transition-all text-white hover:text-secondary">Contact</a>
+                                        <a href="{{url('contact')}}" class="sticky-dark transition-all text-white hover:text-secondary">Contact</a>
 
                                     </li>
                                 </ul>

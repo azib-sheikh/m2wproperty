@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @push('title')
-    m2wproperty | Properties
+    m2wproperty | Contact us
 @endpush
 @section('content')
       <!-- Hero section start -->
