@@ -57,20 +57,21 @@
                                     </li>
                                     <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
 
-                                        <a href="#" class="sticky-dark transition-all text-white hover:text-secondary">Properties</a>
-
-                                  
-                                    </li>
-                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
-
-                                        <a href="agency.html" class="sticky-dark transition-all text-white hover:text-secondary">Agency</a>
+                                        <a href="{{url('about')}}" class="sticky-dark transition-all text-white hover:text-secondary">About us</a>
 
                                      
 
                                     </li>
                                     <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
 
-                                        <a href="#" class="sticky-dark transition-all text-white hover:text-secondary">Blog</a>
+                                        <a href="{{url('properties')}}" class="sticky-dark transition-all text-white hover:text-secondary">Properties</a>
+
+                                  
+                                    </li>
+                                  
+                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                        <a href="{{url('blog')}}" class="sticky-dark transition-all text-white hover:text-secondary">Blog</a>
 
                                      
 
