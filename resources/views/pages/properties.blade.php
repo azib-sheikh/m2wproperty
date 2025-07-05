@@ -91,7 +91,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties4.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="Elite Garden Resedence.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -104,8 +104,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Elite Garden Resedence.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">253 Montril Street, South Town, Miami</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Elite Garden Resedence.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">253 Montril Street, South Town, Miami</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -190,7 +190,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties5.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="De Parasiya Appartment.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -203,8 +203,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">De Parasiya Appartment.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">De Parasiya Appartment.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -289,7 +289,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties6.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="Duplex de Villa">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -302,8 +302,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Duplex de Villa</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">194 Mercer Street, 627 Broadway, New York</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Duplex de Villa</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">194 Mercer Street, 627 Broadway, New York</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -388,7 +388,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties7.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="Orchid Casel de Paradise.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -401,8 +401,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Orchid Casel de Paradise.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">2846 West Side Avenue, New Jersey</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Orchid Casel de Paradise.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">2846 West Side Avenue, New Jersey</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -487,7 +487,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties3.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="Ruposibangla de parlosia.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -500,8 +500,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Ruposibangla de parlosia.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">2381 Richards Avenue, Stockton, California</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Ruposibangla de parlosia.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">2381 Richards Avenue, Stockton, California</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -586,7 +586,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties3.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="Sinomen Studio Palace.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -599,8 +599,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Sinomen Studio Palace.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">4658 Oakwood Avenue, New York</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Sinomen Studio Palace.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">4658 Oakwood Avenue, New York</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -685,7 +685,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties7.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="Elite Garden Resedence.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -698,8 +698,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Elite Garden Resedence.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">253 Montril Street, South Town, Miami</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Elite Garden Resedence.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">253 Montril Street, South Town, Miami</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -784,7 +784,7 @@
                             <div class="swiper-slide">
                                 <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                     <div class="relative">
-                                        <a href="properties-details.html" class="block">
+                                        <a href="{{url('property-detail')}}" class="block">
                                             <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties8.jpg" class="w-full h-full" loading="lazy" width="370" height="266" alt="De Parasiya Appartment.">
                                         </a>
                                         <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -797,8 +797,8 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">De Parasiya Appartment.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">De Parasiya Appartment.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
                                             <li class="flex flex-wrap items-center pr-[25px] sm:pr-[5px] md:pr-[25px] border-r border-[#E0DEDE]">
@@ -891,7 +891,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties4.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="Elite Garden Resedence.">
                                     </a>
 
@@ -906,8 +906,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Elite Garden Resedence.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">253 Montril Street, South Town, Miami</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Elite Garden Resedence.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">253 Montril Street, South Town, Miami</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021 </span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -981,7 +981,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties5.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="De Parasiya Appartment.">
                                     </a>
 
@@ -996,8 +996,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">De Parasiya Appartment.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">18B Central Street, San Francisco</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">De Parasiya Appartment.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">18B Central Street, San Francisco</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021</span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1071,7 +1071,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties6.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="Duplex de Villa">
                                     </a>
 
@@ -1086,8 +1086,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Duplex de Villa</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">194 Mercer Street, 627 Broadway, New York</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Duplex de Villa</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">194 Mercer Street, 627 Broadway, New York</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021 </span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1161,7 +1161,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties7.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="Orchid Casel de Paradise.">
                                     </a>
 
@@ -1176,8 +1176,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Orchid Casel de Paradise.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">2846 West Side Avenue, New Jersey</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Orchid Casel de Paradise.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">2846 West Side Avenue, New Jersey</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021 </span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1251,7 +1251,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties3.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="Ruposibangla de parlosia.">
                                     </a>
 
@@ -1266,8 +1266,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Ruposibangla de parlosia.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">2381 Richards Avenue, Stockton, California</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Ruposibangla de parlosia.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">2381 Richards Avenue, Stockton, California</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021 </span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1341,7 +1341,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties3.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="Sinomen Studio Palace.">
                                     </a>
 
@@ -1356,8 +1356,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Sinomen Studio Palace.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">4658 Oakwood Avenue, New York</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Sinomen Studio Palace.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">4658 Oakwood Avenue, New York</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021 </span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1431,7 +1431,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties7.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="Elite Garden Resedence.">
                                     </a>
 
@@ -1446,8 +1446,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Elite Garden Resedence.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">253 Montril Street, South Town, Miami</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">Elite Garden Resedence.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">253 Montril Street, South Town, Miami</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021 </span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1521,7 +1521,7 @@
                             <div class="overflow-hidden rounded-md text-center transition-all duration-300 drop-shadow-[0px_2px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] hover:-translate-y-[10px] flex flex-wrap flex-col md:flex-row items-end">
                                 <div class="relative mb-[15px] lg:mb-[0px] block w-full lg:w-[300px]">
 
-                                    <a href="properties-details.html" class="block h-[250px]">
+                                    <a href="{{url('property-detail')}}" class="block h-[250px]">
                                         <img src="https://htmldemo.net/bery/bery/assets/images/properties/properties8.jpg" class="w-full h-full rounded-tl-[6px] lg:rounded-bl-[6px] object-cover" loading="lazy" width="300" height="250" alt="De Parasiya Appartment.">
                                     </a>
 
@@ -1536,8 +1536,8 @@
 
                                 <div class="flex flex-col relative w-full lg:w-[calc(100%-300px)]">
                                     <div class="text-left px-4 lg:px-0 w-full md:w-auto md:flex-1 lg:mr-7 xl:mr-[55px] bg-[#FFFDFC] lg:ml-[30px]">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">De Parasiya Appartment.</a></h3>
-                                        <h4><a href="properties-details.html" class="font-light text-tiny underline">18B Central Street, San Francisco</a></h4>
+                                        <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary font-medium">De Parasiya Appartment.</a></h3>
+                                        <h4><a href="{{url('property-detail')}}" class="font-light text-tiny underline">18B Central Street, San Francisco</a></h4>
                                         <span class="font-light text-sm block">Added: 25 November, 2021</span>
                                         <ul>
                                             <li class="flex flex-wrap items-center justify-between mt-[15px] mb-[10px] pt-[10px] border-t border-[#E0E0E0]">
@@ -1773,7 +1773,7 @@
 
                                         <div class="overflow-hidden rounded-md drop-shadow-[0px_2px_3px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center mb-[40px]">
                                             <div class="relative">
-                                                <a href="properties-details.html" class="block">
+                                                <a href="{{url('property-detail')}}" class="block">
                                                     <img src="https://htmldemo.net/bery/bery/assets/images/properties/propertie-slider-1.png" class="w-full h-full" loading="lazy" width="370" height="266" alt="@@title">
                                                 </a>
                                                 <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -1784,10 +1784,10 @@
                                             </div>
 
                                             <div class="pt-[15px] pb-[20px] px-[20px] text-left">
-                                                <h3><a href="properties-details.html" class="font-lora leading-tight text-[18px] text-primary">Orchid
+                                                <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[18px] text-primary">Orchid
                                                         Casel de
                                                         Paradise.</a></h3>
-                                                <h4 class="leading-none"><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] text-primary underline">18B Central Street, San Francisco</a></h4>
+                                                <h4 class="leading-none"><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] text-primary underline">18B Central Street, San Francisco</a></h4>
                                                 <ul class="mt-[10px]">
                                                     <li class="flex flex-wrap items-center justify-between">
                                                         <span class="font-lora text-[14px] text-secondary leading-none">Price: $255300</span>
@@ -1831,7 +1831,7 @@
                                         </div>
                                         <div class="overflow-hidden rounded-md drop-shadow-[0px_2px_3px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center">
                                             <div class="relative">
-                                                <a href="properties-details.html" class="block">
+                                                <a href="{{url('property-detail')}}" class="block">
                                                     <img src="https://htmldemo.net/bery/bery/assets/images/properties/propertie-slider-2.png" class="w-full h-full" loading="lazy" width="370" height="266" alt="@@title">
                                                 </a>
                                                 <div class="flex flex-wrap flex-col absolute top-5 right-5">
@@ -1842,8 +1842,8 @@
                                             </div>
 
                                             <div class="pt-[15px] pb-[20px] px-[20px] text-left">
-                                                <h3><a href="properties-details.html" class="font-lora leading-tight text-[18px] text-primary">Sindrela Resort Villa.</a></h3>
-                                                <h4 class="leading-none"><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] text-primary underline">18B Central Street, San Francisco</a></h4>
+                                                <h3><a href="{{url('property-detail')}}" class="font-lora leading-tight text-[18px] text-primary">Sindrela Resort Villa.</a></h3>
+                                                <h4 class="leading-none"><a href="{{url('property-detail')}}" class="font-light text-[14px] leading-[1.75] text-primary underline">18B Central Street, San Francisco</a></h4>
                                                 <ul class="mt-[10px]">
                                                     <li class="flex flex-wrap items-center justify-between">
                                                         <span class="font-lora text-[14px] text-secondary leading-none">Price:$185300</span>

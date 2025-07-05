@@ -38,58 +38,111 @@
     <div class="overflow-hidden">
         <!-- Header start -->
 
-        <header id="sticky-header" class="absolute left-0 top-[15px] lg:top-[30px] xl:top-[40px] w-full z-10">
-            <div class="container">
-                <div class="grid grid-cols-12">
-                    <div class="col-span-12">
-                        <div class="flex flex-wrap items-center justify-between">
-                            <a href="index.html" class="block">
-                                <img class="white-logo" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="70px" height="70px" alt="brand logo">
-                                <img class=" hidden dark-logo" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="70px" height="70px" alt="brand logo">
-                            </a>
-                            <nav class="flex flex-wrap items-center">
-                                <ul class="hidden lg:flex flex-wrap items-center font-lora text-[16px] xl:text-[18px] leading-none text-black">
-                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+        <div class="min-h-[100px]">
+            <header id="sticky-header" class="relative bg-[#E8F1FF] lg:py-[30px] z-[25] secondary-sticky">
+                <div class="container">
+                    <div class="grid grid-cols-12">
+                        <div class="col-span-12">
+                            <div class="flex flex-wrap items-center justify-between">
+                                <a href="index.html" class="block">
+                                    <img class="" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="70px" height="46" alt="brand logo">
+                                </a>
+                                <nav class="flex flex-wrap items-center">
+                                    <ul class="hidden lg:flex flex-wrap items-center font-lora text-[16px] xl:text-[18px] leading-none text-black">
+                                        <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
 
-                                        <a href="#" class="sticky-dark transition-all text-white hover:text-secondary">Home</a>
+                                            <a href="/" class="transition-all hover:text-secondary">Home</a>
+
+                            
+                                        </li>
+                                        <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                            <a href="{{url('about')}}" class="transition-all hover:text-secondary">About</a>
+
+                                          
+
+                                        </li>
+                                        <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                            <a href="{{url('properties')}}" class="transition-all hover:text-secondary">Properties</a>
+                                           
+                        
+                                        </li>
+                       
+                     
+                                        <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                            <a href="{{ url('blog') }}" class="transition-all hover:text-secondary">Blog</a>
+                       {{--                      <ul class="list-none bg-white drop-shadow-[0px_6px_10px_rgba(0,0,0,0.2)] rounded-[12px] flex flex-wrap flex-col w-[220px] absolute top-[120%] left-1/2 -translate-x-1/2 transition-all
+            group-hover:top-[100%] invisible group-hover:visible opacity-0 group-hover:opacity-100
+            
+            ">
+                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                    <a href="blog-grid.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-t-[12px]">blog
+                                                        grid</a>
+                                                </li>
+                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                    <a href="blog-grid-left-side-bar.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px]">blog
+                                                        grid left side bar</a>
+                                                </li>
+                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                    <a href="blog-grid-right-side-bar.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px]">blog
+                                                        grid right side bar</a>
+                                                </li>
+                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                    <a href="blog-details.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-b-[12px]">blog
+                                                        details</a>
+                                                </li>
+
+                                            </ul> --}}
+
+                                        </li>
+                                        <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                            <a href="{{url('contact')}}" class="transition-all hover:text-secondary">Contact</a>
+
+                                        </li>
+                                    </ul>
+
+                                    <ul class="flex flex-wrap items-center">
+                                        <li class="sm:mr-5 xl:mr-[20px] relative group">
+                                           {{--  <a href="#">
+                                                <img src="assets/images/user/avater.png" loading="lazy" width="62" height="62" alt="avater">
+                                            </a> --}}
+
+                                            <ul class="list-none bg-white drop-shadow-[0px_6px_10px_rgba(0,0,0,0.2)] rounded-[12px] flex flex-wrap flex-col w-[180px] absolute top-[120%] sm:left-1/2 sm:-translate-x-1/2 transition-all
+                group-hover:top-[60px] invisible group-hover:visible opacity-0 group-hover:opacity-100 right-0
+                
+                ">
+                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                    <a href="login.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-t-[12px]">login</a>
+                                                </li>
+
+                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                    <a href="register.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-b-[12px]">register</a>
+                                                </li>
 
 
-                                    </li>
-                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
-
-                                        <a href="{{url('about')}}" class="sticky-dark transition-all text-white hover:text-secondary">About us</a>
-
-                                     
-
-                                    </li>
-                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
-
-                                        <a href="{{url('properties')}}" class="sticky-dark transition-all text-white hover:text-secondary">Properties</a>
-
-                                  
-                                    </li>
-                                  
-                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
-
-                                        <a href="{{url('blog')}}" class="sticky-dark transition-all text-white hover:text-secondary">Blog</a>
-
-                                     
-
-                                    </li>
-                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
-
-                                        <a href="{{url('contact')}}" class="sticky-dark transition-all text-white hover:text-secondary">Contact</a>
-
-                                    </li>
-                                </ul>
-
-                    
-                            </nav>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="add-properties.html" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-secondary before:w-0 hover:before:w-full hover:before:left-0 hover:before:right-auto before:transition-all leading-none px-[20px] py-[15px] capitalize font-medium text-white hidden sm:block text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-primary after:rounded-md after:transition-all">Book Appointment</a>
+                                        </li>
+                                        <li class="ml-2 sm:ml-5 lg:hidden">
+                                            <a href="#offcanvas-mobile-menu" class="offcanvas-toggle flex text-[#016450] hover:text-secondary">
+                                                <svg width="24" height="24" class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </div>
         <!-- offcanvas-overlay start -->
         <div class="offcanvas-overlay hidden fixed inset-0 bg-black opacity-50 z-50"></div>
         <!-- offcanvas-overlay end -->
@@ -107,22 +160,11 @@
                     <ul>
                         <li class="relative block border-b-primary border-b first:border-t first:border-t-primary">
                             <a href="#" class="block capitalize font-normal text-black hover:text-secondary text-base my-2 py-1 px-5">Home</a>
-                            <ul class="offcanvas-submenu static top-auto hidden w-full visible opacity-100 capitalize">
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="index.html">home 01</a></li>
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="index-2.html">home 02</a></li>
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="index-3.html">home 03</a></li>
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="index-4.html">home 04</a></li>
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="index-5.html">home 05</a></li>
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="index-6.html">home 06</a></li>
-                            </ul>
+                            
                         </li>
                         <li class="relative block border-b-primary border-b">
                             <a href="about.html" class="block capitalize font-normal text-black hover:text-secondary text-base my-2 py-1 px-5">About</a>
-                            <ul class="offcanvas-submenu static top-auto hidden w-full visible opacity-100 capitalize">
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="about.html">About</a></li>
-
-                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="about-v2.html">About v2</a></li>
-                            </ul>
+                           
 
                         </li>
                         <li class="relative block border-b-primary border-b">
@@ -252,7 +294,25 @@
 
                         <li class="relative block border-b-primary border-b"><a href="#" class="relative block capitalize text-black hover:text-secondary text-base my-2 py-1 px-5">Blog</a>
 
-                          
+                            <ul class="offcanvas-submenu static top-auto hidden w-full visible opacity-100 capitalize">
+                                <li>
+                                    <a href="blog-grid.html" class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary">blog
+                                        grid</a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid-left-side-bar.html" class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary">blog
+                                        grid left side bar</a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid-right-side-bar.html" class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary">blog
+                                        grid right side bar</a>
+                                </li>
+                                <li>
+                                    <a href="blog-details.html" class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary">blog
+                                        details</a>
+                                </li>
+
+                            </ul>
                         </li>
                         <li class="relative block border-b-primary border-b"><a href="contact.html" class="relative block capitalize text-black hover:text-secondary text-base my-2 py-1 px-5">Contact</a></li>
                     </ul>
@@ -269,4 +329,5 @@
             </div>
         </div>
         <!-- offcanvas-mobile-menu end -->
+        <!-- Header end -->
         <!-- Header end -->
