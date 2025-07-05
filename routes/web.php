@@ -28,3 +28,10 @@ Route::get('blog', function () {
 Route::get('contact', function () {
     return view('pages.contact');
 });
+
+Route::get('property-detail', function () {
+    return view('pages.property-detail');
+});
+Route::get('blog-post', function () {
+    return view('pages.blog-post');
+});
