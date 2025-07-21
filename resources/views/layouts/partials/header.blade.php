@@ -38,17 +38,17 @@
     <div class="overflow-hidden">
         <!-- Header start -->
 
-        <div class="min-h-[100px]">
-            <header id="sticky-header" class="relative bg-[#E8F1FF] lg:py-[30px] z-[25] secondary-sticky">
+        <div class="min-h-[70px]">
+            <header id="sticky-header" class="relative bg-[#E8F1FF] lg:py-[8px] z-[25] secondary-sticky">
                 <div class="container">
                     <div class="grid grid-cols-12">
                         <div class="col-span-12">
                             <div class="flex flex-wrap items-center justify-between">
-                                <a href="index.html" class="block">
-                                    <img class="" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="70px" height="46" alt="brand logo">
+                                <a href="index.html" class="block py-2">
+                                    <img class="" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" loading="lazy" width="50px" height="46" alt="brand logo">
                                 </a>
                                 <nav class="flex flex-wrap items-center">
-                                    <ul class="hidden lg:flex flex-wrap items-center font-lora text-[16px] xl:text-[18px] leading-none text-black">
+                                    <ul class="hidden lg:flex flex-wrap items-center font-lora text-[14px] xl:text-[16px] leading-none text-black">
                                         <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
 
                                             <a href="/" class="transition-all hover:text-secondary">Home</a>
@@ -64,7 +64,22 @@
                                         </li>
                                         <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
 
-                                            <a href="{{url('properties')}}" class="transition-all hover:text-secondary">Properties</a>
+                                            <a href="{{url('properties')}}" class="transition-all hover:text-secondary">Projects</a>
+                                            <ul class="list-none bg-white drop-shadow-[0px_6px_10px_rgba(0,0,0,0.2)] rounded-[12px] flex flex-wrap flex-col w-[220px] absolute top-[120%] left-1/2 -translate-x-1/2 transition-all
+                                            group-hover:top-[100%] invisible group-hover:visible opacity-0 group-hover:opacity-100
+                                            
+                                            ">
+                                                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                                                    <a href="blog-grid.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-t-[12px]">Noida</a>
+                                                                                </li>
+                                                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                                                    <a href="blog-grid-left-side-bar.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px]">Greater Noida</a>
+                                                                                </li>
+                                                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                                                    <a href="blog-grid-right-side-bar.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px]">Gurgaon</a>
+                                                                                </li>
+                                
+                                                                            </ul>
                                            
                         
                                         </li>
@@ -105,28 +120,8 @@
                                     </ul>
 
                                     <ul class="flex flex-wrap items-center">
-                                        <li class="sm:mr-5 xl:mr-[20px] relative group">
-                                           {{--  <a href="#">
-                                                <img src="assets/images/user/avater.png" loading="lazy" width="62" height="62" alt="avater">
-                                            </a> --}}
-
-                                            <ul class="list-none bg-white drop-shadow-[0px_6px_10px_rgba(0,0,0,0.2)] rounded-[12px] flex flex-wrap flex-col w-[180px] absolute top-[120%] sm:left-1/2 sm:-translate-x-1/2 transition-all
-                group-hover:top-[60px] invisible group-hover:visible opacity-0 group-hover:opacity-100 right-0
-                
-                ">
-                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
-                                                    <a href="login.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-t-[12px]">login</a>
-                                                </li>
-
-                                                <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
-                                                    <a href="register.html" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-primary hover:text-white text-center my-[-1px] rounded-b-[12px]">register</a>
-                                                </li>
-
-
-                                            </ul>
-                                        </li>
                                         <li>
-                                            <a href="add-properties.html" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-secondary before:w-0 hover:before:w-full hover:before:left-0 hover:before:right-auto before:transition-all leading-none px-[20px] py-[15px] capitalize font-medium text-white hidden sm:block text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-primary after:rounded-md after:transition-all">Book Appointment</a>
+                                            <a href="add-properties.html" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-secondary before:w-0 hover:before:w-full hover:before:left-0 hover:before:right-auto before:transition-all leading-none px-[20px] py-[15px] capitalize font-medium text-white hidden sm:block text-[14px] xl:text-[14px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-primary after:rounded-md after:transition-all">Book a visit</a>
                                         </li>
                                         <li class="ml-2 sm:ml-5 lg:hidden">
                                             <a href="#offcanvas-mobile-menu" class="offcanvas-toggle flex text-[#016450] hover:text-secondary">
