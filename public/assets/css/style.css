@@ -2030,7 +2030,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .bg-\[\#E9F1FF\] {
@@ -2045,7 +2045,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-secondary {
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .bg-\[\#EEEEEE\] {
@@ -2070,12 +2070,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[\#E8F1FF\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(232 241 255/var(--tw-bg-opacity));
+  background-color: #f0853921;
 }
 
 .bg-\[\#0B2C3D\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .bg-\[rgb\(232\,241\,255\,0\.9\)\] {
@@ -2275,6 +2275,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[22px\] {
   padding-top: 22px;
   padding-bottom: 22px;
+}
+.py-\[16px\] {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .px-\[5px\] {
@@ -2733,12 +2737,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-secondary {
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
 }
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .text-\[\#494949\] {
@@ -2928,7 +2932,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hero-slider .swiper-pagination-bullet-active::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -3107,20 +3111,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pagination .active {
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
   --tw-text-opacity: 1;
   color: rgb(255 255 255/var(--tw-text-opacity));
 }
 
 .tab-nav .active button {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .tab-nav li.active button:before {
   width: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .tab-nav button:hover::before {
@@ -3161,17 +3165,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-tab-menu button:hover {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .grid-tab-menu .active button {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .all-properties .active button {
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
 }
 
 .swiper-slide-visible .cities-shadow {
@@ -3199,14 +3203,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(179 147 89/var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .cities-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   --tw-border-opacity: 1;
   border-color: rgb(179 147 89/var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .properties-slider .swiper-pagination {
@@ -3229,14 +3233,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(179 147 89/var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .properties-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   --tw-border-opacity: 1;
   border-color: rgb(179 147 89/var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .review-shadow-card {
@@ -3347,7 +3351,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .search-btn {
   border-radius: 15px;
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
   padding: 5px;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -3356,7 +3360,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .search-btn:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 @media (min-width: 768px) {
@@ -3380,7 +3384,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 18px;
   line-height: 1;
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -3388,7 +3392,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .search-properties-btn:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
   --tw-text-opacity: 1;
   color: rgb(255 255 255/var(--tw-text-opacity));
 }
@@ -3405,7 +3409,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .tab-toggle-btn.active {
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
   --tw-text-opacity: 1;
   color: rgb(255 255 255/var(--tw-text-opacity));
 }
@@ -3477,7 +3481,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .home-pagination-six .swiper-pagination-bullet:hover {
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
 }
 
 .home-pagination-six .swiper-pagination-bullet {
@@ -3495,7 +3499,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .home-pagination-six .swiper-pagination-bullet-active {
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
   margin: 0px 0px 55px !important;
 }
 
@@ -4086,17 +4090,17 @@ input:focus {
 
 .placeholder\:text-primary::-moz-placeholder {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .placeholder\:text-primary:-ms-input-placeholder {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .placeholder\:text-primary::placeholder {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .placeholder\:opacity-100::-moz-placeholder {
@@ -4331,7 +4335,7 @@ input:focus {
 .before\:bg-secondary::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .before\:bg-\[\#F5F9F8\]::before {
@@ -4343,7 +4347,7 @@ input:focus {
 .before\:\!bg-secondary::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity)) !important;
+  background-color: #523036 !important;
 }
 
 .before\:bg-\[\#E8F1FF\]::before {
@@ -4355,7 +4359,7 @@ input:focus {
 .before\:bg-primary::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .before\:bg-\[\#060606\]::before {
@@ -4455,7 +4459,7 @@ input:focus {
 .after\:bg-primary::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .after\:bg-white::after {
@@ -4467,7 +4471,7 @@ input:focus {
 .after\:bg-secondary::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .after\:transition-all::after {
@@ -4537,7 +4541,7 @@ input:focus {
 
 .hover\:bg-secondary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(179 147 89/var(--tw-bg-opacity));
+  background-color: #523036;
 }
 
 .hover\:bg-\[\#F5F9F8\]:hover {
@@ -4557,7 +4561,7 @@ input:focus {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .hover\:bg-white:hover {
@@ -4567,7 +4571,7 @@ input:focus {
 
 .hover\:text-secondary:hover {
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
 }
 
 .hover\:text-\[\#3B5998\]:hover {
@@ -4582,7 +4586,7 @@ input:focus {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .hover\:underline:hover {
@@ -4638,7 +4642,7 @@ input:focus {
 .hover\:before\:bg-primary:hover::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(11 44 61/var(--tw-bg-opacity));
+  background-color: #f08539
 }
 
 .hover\:before\:opacity-80:hover::before {
@@ -4707,12 +4711,12 @@ input:focus {
 
 .group:hover .group-hover\:text-secondary {
   --tw-text-opacity: 1;
-  color: rgb(179 147 89/var(--tw-text-opacity));
+  color: rgb(239 239 239);
 }
 
 .group:hover .group-hover\:text-primary {
   --tw-text-opacity: 1;
-  color: rgb(11 44 61/var(--tw-text-opacity));
+  color: #f08539
 }
 
 .group:hover .group-hover\:text-body {
@@ -5069,6 +5073,9 @@ input:focus {
 
   .md\:mt-\[120px\] {
     margin-top: 120px;
+  }
+  .md\:mb-\[80px\] {
+    margin-bottom: 80px;
   }
 
   .md\:mr-\[46px\] {
@@ -5542,6 +5549,10 @@ input:focus {
 
   .lg\:translate-y-\[-396px\] {
     --tw-translate-y: -396px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .lg\:translate-y-\[-490px\] {
+    --tw-translate-y: -490px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -6029,7 +6040,7 @@ input:focus {
 
   .xl\:bg-primary {
     --tw-bg-opacity: 1;
-    background-color: rgb(11 44 61/var(--tw-bg-opacity));
+    background-color: #f08539
   }
 
   .xl\:bg-transparent {

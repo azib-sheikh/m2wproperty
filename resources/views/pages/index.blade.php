@@ -12,15 +12,18 @@
 
     <section class="bg-[#FFF6F0] relative before:absolute before:inset-0 before:content-[''] before:bg-[#060606] before:opacity-[50%]">
         <div class="lg:h-[720px] xl:h-[830px]">
-            <img class="w-full h-full min-h-[360px] md:min-h-[540px] object-cover" src="https://htmldemo.net/bery/bery/assets/images/hero/home-3.jpg" alt="hero image">
-            <div class="absolute right-0 left-0 lg:top-[110px] xl:top-[155px] top-[50%] -translate-y-1/2 lg:translate-y-0">
+            <video src="{{ asset('assets/images/bannervideo.mp4') }}" autoplay muted loop playsinline class="w-full h-full min-h-[360px] md:min-h-[540px] object-cover"></video>
+
+            <img class="w-full h-full min-h-[360px] md:min-h-[540px] object-cover hidden" src="https://htmldemo.net/bery/bery/assets/images/hero/home-3.jpg" alt="hero image">
+            <div class="absolute right-0 left-0 lg:top-[110px] xl:top-[110px] top-[50%] -translate-y-1/2 lg:translate-y-0">
                 <div class="container">
                     <div class="grid grid-cols-12">
                         <div class="col-span-12">
                             <div class="lg:max-w-[500px] xl:max-w-[600px] text-center ml-auto mr-auto lg:mb-[75px]">
-                                <span class="text-base text-white block mb-5">A new way to find Properties</span>
-                                <h1 class="font-lora text-white text-[36px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-2xl title">
-                                    Search and Find Luxury Homes</h1>
+                              
+                                <h1 class="font-lora text-white text-[28px] sm:text-[32px] md:text-[50px] lg:text-[40px] leading-tight xl:text-xl title">
+                                    Find Your Perfect Property with M2W Realty</h1>
+                                    <span class="text-base text-white block mt-5">M2W Realty offers trusted guidance, seamless experiences, and smart property choices to help you invest with confidence.</span>
                             </div>
                         </div>
                     </div>
@@ -33,25 +36,25 @@
 
     <!-- Addvanced search tab start -->
 
-    <div class="container mt-[80px] md:mt-[120px] lg:mt-[0px] z-[2] pl-[60px] lg:pl-[50px] 2xl::pl-[0px] lg:absolute lg:left-0 lg:right-0 lg:top-[100%] lg:translate-y-[-396px]">
+    <div class="container mt-[80px] md:mt-[120px] md:mb-[80px] lg:mt-[0px] z-[2] pl-[60px] lg:pl-[50px] 2xl::pl-[0px] lg:absolute lg:left-0 lg:right-0 lg:top-[100%] lg:translate-y-[-490px]">
         <div class="grid grid-cols-12">
             <div class="col-span-12">
                 <div class="relative text-center">
-                    <ul class="tab-nav search-tab inline-flex px-[15px] sm:px-[30px] py-[22px] border-t border-l border-r border-solid border-[#016450] rounded-tl-[15px] rounded-tr-[15px] bg-[rgb(232,241,255,0.9)]">
-                        <li data-tab="buy" class="mr-[5px] sm:mr-[10px] md:mr-[46px] my-1 active"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[22px] before:absolute before:left-auto before:right-0 before:bottom-[-34px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">buy</button>
+                    <ul class="tab-nav search-tab inline-flex px-[15px] sm:px-[30px] py-[16px] border-t border-l border-r border-solid border-[#016450] rounded-tl-[15px] rounded-tr-[15px] bg-[rgb(232,241,255,0.9)]">
+                        <li data-tab="buy" class="mr-[5px] sm:mr-[10px] md:mr-[46px] my-1 active"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[16px] before:absolute before:left-auto before:right-0 before:bottom-[-28px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">Plots</button>
                         </li>
-                        <li data-tab="sell" class="mr-[5px] sm:mr-[10px] md:mr-[46px] my-1"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[22px] before:absolute before:left-auto before:right-0 before:bottom-[-34px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">sell</button>
+                        <li data-tab="buy" class="mr-[5px] sm:mr-[10px] md:mr-[46px] my-1"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[16px] before:absolute before:left-auto before:right-0 before:bottom-[-28px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">Flats</button>
                         </li>
-                        <li data-tab="rent" class="mr-[5px] sm:mr-[10px] md:mr-[46px] my-1"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[22px] before:absolute before:left-auto before:right-0 before:bottom-[-34px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">rent</button>
+                        <li data-tab="buy" class=" my-1"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[16px] before:absolute before:left-auto before:right-0 before:bottom-[-28px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">Commercial</button>
                         </li>
-                        <li data-tab="co-living" class="md:mr-[0px] my-1"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[22px] before:absolute before:left-auto before:right-0 before:bottom-[-34px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out">Co-living</button>
+                        <li data-tab="co-living" class="md:mr-[0px] my-1"><button class="font-lora leading-none px-[5px] sm:px-[10px] capitalize text-primary transition-all text-base xl:text-[22px] before:absolute before:left-auto before:right-0 before:bottom-[-34px] before:z-10 before:rounded-full before:w-0 before:h-[3px] before:content-[''] before:bg-secondary relative before:transition-all ease-out hidden">Co-living</button>
                         </li>
                     </ul>
 
                 </div>
                 <div class="relative selectricc-border-none">
 
-                    <button class="tab-toggle-btn px-[10px] py-[15px] absolute top-[0px] left-[-45px] border-l border-t border-b border-solid border-[#fff] bg-[rgb(232,241,255,0.98)] text-primary rounded-tl-[10px] rounded-bl-[10px]" aria-label="svg icon">
+                    <button class="tab-toggle-btn px-[10px] py-[15px] absolute top-[0px] left-[-45px] border-l border-t border-b border-solid border-[#fff] bg-[rgb(232,241,255,0.98)] text-primary rounded-tl-[10px] rounded-bl-[10px] hidden" aria-label="svg icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19 22V11" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M19 7V2" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
@@ -65,7 +68,7 @@
                         </svg>
                     </button>
 
-                    <div id="buy" class="tab-content bg-[rgb(232,241,255,0.9)] border-t border-solid border-[#fff] rounded-bl-[15px] rounded-br-[15px] rounded-tr-[15px] px-[15px] sm:px-[30px] py-[40px] active">
+                    <div id="buy" class="tab-content bg-[rgb(232,241,255,0.9)] border-t border-solid border-[#fff] rounded-[15px] px-[15px] sm:px-[30px] py-[40px] active">
                         <form action="#">
                             <div class="advanced-searrch flex flex-wrap -mb-[45px]">
 
@@ -74,7 +77,7 @@
                                         <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
                                     </div>
                                     <div class="flex-1">
-                                        <label for="location" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Location</label>
+                                        <label for="location" class="font-lora block capitalize text-primary text-[16px] leading-none mb-1">Location</label>
                                         <input id="location" type="text" placeholder="Choose location" class="text-tiny placeholder:text-body leading-none font-light pr-3 focus:outline-none w-full bg-transparent">
                                     </div>
                                 </div>
@@ -84,7 +87,7 @@
                                         <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
                                     </div>
                                     <div class="flex-1">
-                                        <label for="property" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
+                                        <label for="property" class="font-lora block capitalize text-primary text-[16px]  leading-none mb-1">Property
                                             Type</label>
                                         <select name="property" id="property" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
                                             <option selected value="0">Apartments</option>
@@ -100,13 +103,13 @@
                                         <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
                                     </div>
                                     <div class="flex-1">
-                                        <label for="price" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Price
+                                        <label for="price" class="font-lora block capitalize text-primary text-[16px]  leading-none mb-1">Price
                                             Range</label>
                                         <select name="price" id="price" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">3500 USD</option>
-                                            <option value="1">3600 USD</option>
-                                            <option value="2">3700 USD</option>
-                                            <option value="3">3800 USD</option>
+                                            <option selected value="0">0 - 10 Lakhs</option>
+                                            <option value="1">10 - 50 Lakhs</option>
+                                            <option value="2">50 - 100 Lakhs</option>
+                                            <option value="3">1 Crore+</option>
                                         </select>
                                     </div>
 
@@ -119,7 +122,7 @@
                                     </div>
 
                                     <div class="flex-1">
-                                        <label for="property-size" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
+                                        <label for="property-size" class="font-lora block capitalize text-primary text-[16px] leading-none mb-1">Property
                                             Size</label>
                                         <select name="property-size" id="property-size" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
                                             <option selected value="0">1500 Sqft</option>
@@ -198,404 +201,7 @@
                         </form>
                     </div>
 
-                    <div id="sell" class="tab-content bg-[rgb(232,241,255,0.9)] border-t border-solid border-[#fff] rounded-bl-[15px] rounded-br-[15px] rounded-tr-[15px] px-[15px] sm:px-[30px] py-[40px]">
-                        <form action="#">
-                            <div class="advanced-searrch flex flex-wrap -mb-[45px]">
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="location2" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Location</label>
-                                        <input id="location2" type="text" placeholder="Choose location" class="text-tiny placeholder:text-body leading-none font-light pr-3 focus:outline-none w-full bg-transparent">
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="property2" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
-                                            Type</label>
-                                        <select name="property" id="property2" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Duplex House</option>
-                                            <option value="1">Duplex House 1</option>
-                                            <option value="2">Duplex House 2</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="price2" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Price
-                                            Range</label>
-                                        <select name="price" id="price2" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">1500 USD</option>
-                                            <option value="1">1600 USD</option>
-                                            <option value="2">1700 USD</option>
-                                            <option value="3">1800 USD</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] relative">
-
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/area.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-
-                                    <div class="flex-1">
-                                        <label for="property-size2" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
-                                            Size</label>
-                                        <select name="property-size" id="property-size2" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">2500 Sqft</option>
-                                            <option value="1">2600 Sqft</option>
-                                            <option value="2">2700 Sqft</option>
-                                            <option value="3">2800 Sqft</option>
-                                        </select>
-                                    </div>
-                                    <button class="search-btn absolute right-0 lg:right-[-60px] xl:right-[-70px]">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/search-outline.svg" class="max-w-[30px] xl:w-auto" width="40" height="40" alt="svg icon">
-                                        <span class="hidden">Search Properties</span>
-                                    </button>
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="advanced-searrch-hidden flex flex-wrap items-center mt-[45px] -mb-[45px]">
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="bedrooms" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Bedrooms</label>
-                                        <select name="property" id="bedrooms" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Bedrooms</option>
-                                            <option value="1">kitchen</option>
-                                            <option value="2">dinning rooms</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="property3" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Bathrooms</label>
-                                        <select name="property" id="property3" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Duplex House</option>
-                                            <option value="1">Duplex House 1</option>
-                                            <option value="2">Duplex House 2</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="garage2" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Garage</label>
-                                        <select name="garage" id="garage2" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">2 Garage</option>
-                                            <option value="1">2 Garage</option>
-                                            <option value="2">3 Garage</option>
-                                            <option value="3">4 Garage</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <button class="search-properties-btn">
-                                        Search Properties
-                                    </button>
-                                </div>
-
-                            </div>
-
-
-                        </form>
-                    </div>
-
-                    <div id="rent" class="tab-content bg-[rgb(232,241,255,0.9)] border-t border-solid border-[#fff] rounded-bl-[15px] rounded-br-[15px] rounded-tr-[15px] px-[15px] sm:px-[30px] py-[40px]">
-                        <form action="#">
-                            <div class="advanced-searrch flex flex-wrap -mb-[45px]">
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="location7" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Location</label>
-                                        <input id="location7" type="text" placeholder="Choose location" class="text-tiny placeholder:text-body leading-none font-light pr-3 focus:outline-none w-full bg-transparent">
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="property8" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
-                                            Type</label>
-                                        <select name="property" id="property8" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Apartments</option>
-                                            <option value="1">Apartments 1</option>
-                                            <option value="2">Apartments 2</option>
-                                            <option value="3">Apartments 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="price7" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Price
-                                            Range</label>
-                                        <select name="price" id="price7" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">6500 USD</option>
-                                            <option value="1">6600 USD</option>
-                                            <option value="2">6700 USD</option>
-                                            <option value="3">6800 USD</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] relative">
-
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/area.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-
-                                    <div class="flex-1">
-                                        <label for="property-size9" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
-                                            Size</label>
-                                        <select name="property-size" id="property-size9" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">7500 Sqft</option>
-                                            <option value="1">7600 Sqft</option>
-                                            <option value="2">7700 Sqft</option>
-                                            <option value="3">7800 Sqft</option>
-                                        </select>
-                                    </div>
-                                    <button class="search-btn absolute right-0 lg:right-[-60px] xl:right-[-70px]">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/search-outline.svg" class="max-w-[30px] xl:w-auto" width="40" height="40" alt="svg icon">
-                                        <span class="hidden">Search Properties</span>
-                                    </button>
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="advanced-searrch-hidden flex flex-wrap items-center mt-[45px] -mb-[45px]">
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="bedrooms6" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Bedrooms</label>
-                                        <select name="property" id="bedrooms6" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Bedrooms</option>
-                                            <option value="1">kitchen</option>
-                                            <option value="2">dinning rooms</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="property7" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Bathrooms</label>
-                                        <select name="property" id="property7" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Duplex House</option>
-                                            <option value="1">Duplex House 1</option>
-                                            <option value="2">Duplex House 2</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="garage20" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Garage</label>
-                                        <select name="garage" id="garage20" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">2 Garage</option>
-                                            <option value="1">2 Garage</option>
-                                            <option value="2">3 Garage</option>
-                                            <option value="3">4 Garage</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <button class="search-properties-btn">
-                                        Search Properties
-                                    </button>
-                                </div>
-
-                            </div>
-
-
-                        </form>
-                    </div>
-
-                    <div id="co-living" class="tab-content bg-[rgb(232,241,255,0.9)] border-t border-solid border-[#fff] rounded-bl-[15px] rounded-br-[15px] rounded-tr-[15px] px-[15px] sm:px-[30px] py-[40px]">
-                        <form action="#">
-                            <div class="advanced-searrch flex flex-wrap -mb-[45px]">
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="location6" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Location</label>
-                                        <input id="location6" type="text" placeholder="Choose location" class="text-tiny placeholder:text-body leading-none font-light pr-3 focus:outline-none w-full bg-transparent">
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="property6" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
-                                            Type</label>
-                                        <select name="property" id="property6" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Duplex House</option>
-                                            <option value="1">Duplex House 1</option>
-                                            <option value="2">Duplex House 2</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="price6" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Price
-                                            Range</label>
-                                        <select name="price" id="price6" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">1500 USD</option>
-                                            <option value="1">1600 USD</option>
-                                            <option value="2">1700 USD</option>
-                                            <option value="3">1800 USD</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] relative">
-
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/area.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-
-                                    <div class="flex-1">
-                                        <label for="property-size4" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Property
-                                            Size</label>
-                                        <select name="property-size" id="property-size4" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">2500 Sqft</option>
-                                            <option value="1">2600 Sqft</option>
-                                            <option value="2">2700 Sqft</option>
-                                            <option value="3">2800 Sqft</option>
-                                        </select>
-                                    </div>
-                                    <button class="search-btn absolute right-0 lg:right-[-60px] xl:right-[-70px]">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/search-outline.svg" class="max-w-[30px] xl:w-auto" width="40" height="40" alt="svg icon">
-                                        <span class="hidden">Search Properties</span>
-                                    </button>
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="advanced-searrch-hidden flex flex-wrap items-center mt-[45px] -mb-[45px]">
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/location.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="bedrooms4" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Bedrooms</label>
-                                        <select name="property" id="bedrooms4" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Bedrooms</option>
-                                            <option value="1">kitchen</option>
-                                            <option value="2">dinning rooms</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex lg:border-r lg:border-primary lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/property.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="property4" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Bathrooms</label>
-                                        <select name="property" id="property4" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">Duplex House</option>
-                                            <option value="1">Duplex House 1</option>
-                                            <option value="2">Duplex House 2</option>
-                                            <option value="3">Duplex House 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <div class="mr-4 self-start shrink-0">
-                                        <img src="https://htmldemo.net/bery/bery/assets/images/icon/dollar-circle.svg" width="24" height="24" alt="svg icon">
-                                    </div>
-                                    <div class="flex-1">
-                                        <label for="garage4" class="font-lora block capitalize text-primary text-[17px] xl:text-[23px] leading-none mb-1">Garage</label>
-                                        <select name="garage" id="garage4" class="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
-                                            <option selected value="0">2 Garage</option>
-                                            <option value="1">2 Garage</option>
-                                            <option value="2">3 Garage</option>
-                                            <option value="3">4 Garage</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
-                                <div class="advanced-searrch-list flex items-center lg:border-r lg:boprimaryborder-primaryD4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
-                                    <button class="search-properties-btn">
-                                        Search Properties
-                                    </button>
-                                </div>
-
-                            </div>
-
-
-                        </form>
-                    </div>
+                  
 
                 </div>
             </div>
@@ -605,7 +211,7 @@
 
 <!-- Addvanced search tab end -->
 
-<!-- Brand section Start-->
+{{-- <!-- Brand section Start-->
 
 <section class="brand-section pt-[80px] lg:pt-[120px]">
     <div class="container">
@@ -747,7 +353,7 @@
         </div>
     </div>
 </section>
-<!-- Explore Cities End-->
+<!-- Explore Cities End--> --}}
 
 <!-- About Us Sectin Start -->
 <section class="about-section lg:pt-[55px]">
@@ -755,15 +361,13 @@
         <div class="grid grid-cols-12 gap-6 items-center">
             <div class="col-span-12 lg:col-span-6">
                 <span class="text-secondary text-tiny inline-block mb-2">Why Choose us</span>
-                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-5 lg:mb-16 font-medium max-w-[500px]">We Provide Latest Properties for our valuable Clients.<span class="text-secondary">.</span></h2>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-5 lg:mb-16 font-medium max-w-[500px]">Find the Latest Properties<span class="text-secondary">.</span></h2>
                 <div class="scene" data-relative-input="true">
                     <img data-depth="0.1" src="https://htmldemo.net/bery/bery/assets/images/about/about7.png" class="" loading="lazy" width="729" height="663" alt="about Image">
                 </div>
             </div>
             <div class="col-span-12 lg:col-span-6 lg:pl-[70px]">
-                <p class="max-w-[448px] ">Huge number of propreties availabe here for buy, sell and
-                    Rent. Also you find here co-living property so lots opportunity
-                    you have to choose here and enjoy huge discount. </p>
+                <p class="max-w-[448px] ">At M2W Realty, we offer a wide selection of verified properties for buying and selling including co-living spaces. Discover endless options and exciting deals tailored to your needs. </p>
 
                 <div class="-mb-10 mt-12 xl:mt-[70px] 2xl:mt-[100px]">
                     <div class="flex flex-wrap mb-5 lg:mb-10">
@@ -771,8 +375,7 @@
                         <div class="flex-1">
                             <h3 class="font-lora text-primary text-[22px] xl:text-lg capitalize mb-2">Budget
                                 Friendly</h3>
-                            <p class="max-w-[315px]">Properties are most budget friendly so you
-                                have opportunity to find the best one</p>
+                            <p class="max-w-[315px]">Explore a range of affordable properties that suit your budget without compromising on quality or location.</p>
                         </div>
 
                     </div>
@@ -781,8 +384,7 @@
                         <div class="flex-1">
                             <h3 class="font-lora text-primary text-[22px] xl:text-lg capitalize mb-2">Prime
                                 Location</h3>
-                            <p class="max-w-[315px]">Properties are most budget friendly so you
-                                have opportunity to find the best one</p>
+                            <p class="max-w-[315px]">Our listings feature properties in well-connected, high-growth areas — perfect for both living and investment.</p>
                         </div>
 
                     </div>
@@ -790,10 +392,9 @@
                         <img src="https://htmldemo.net/bery/bery/assets/images/icon/trusted.png" class="self-start mr-5" loading="lazy" width="50" height="50" alt="about Image">
                         <div class="flex-1">
                             <h3 class="font-lora text-primary text-[22px] xl:text-lg capitalize mb-2">
-                                Trusted by
-                                Thousand</h3>
-                            <p class="max-w-[315px]">Properties are most budget friendly so you
-                                have opportunity to find the best one</p>
+                                Expert Guidance
+</h3>
+                            <p class="max-w-[315px]">Whether you're a first-time buyer or a seasoned investor, our team is here to guide you through every stage of the property journey with clarity, care, and confidence.</p>
                         </div>
 
                     </div>
@@ -2691,4 +2292,5 @@
     </div>
 </section>
 <!-- News Letter section End -->
+
 @endsection
