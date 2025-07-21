@@ -5,38 +5,38 @@
                 <div class="grid grid-cols-12 gap-x-[30px] mb-[-30px]">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4 mb-[30px]">
                         <a href="index.html" class="block mb-[25px]">
-                            <img src="https://htmldemo.net/bery/bery/assets//images/logo/logo.svg" width="99" height="46" loading=lazy alt="footer logo">
+                            <img class="dark-logo" src="{{asset('assets/images/m2ww-YleWPxZV8ZsVBboM.png')}}" width="70px" height="40" loading=lazy alt="footer logo">
                         </a>
                         <p class="mb-[5px] xl:mb-[40px] max-w-[270px]">Properties are most budget friendly
                             so you have are find opportunity is
                             main responsibility to clients </p>
-                        <p class="text-sm hidden md:block">&copy; <a href="https://themeforest.net/user/codecarnival/portfolio" class="text-secondary">CodeCarnival.</a> All Rights Reserved - Privacy Policy</p>
+                        <p class="text-sm hidden md:block">&copy; <a href="https://themeforest.net/user/codecarnival/portfolio" class="text-primary">CodeCarnival.</a> All Rights Reserved - Privacy Policy</p>
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-3 mb-[30px]">
                         <h3 class="font-lora font-normal text-[22px] leading-[1.222] text-primary mb-[20px] lg:mb-[30px]">
                             Information<span class="text-secondary">.</span></h3>
                         <ul class="text-[16px] leading-none mb-[-20px]">
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="about.html">About
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="about.html">About
                                     us</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="properties-v2.html">Properties</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="#">Careers</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="#">Payment</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="blog-grid.html">Blog
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="properties-v2.html">Properties</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="#">Careers</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="#">Payment</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="blog-grid.html">Blog
                                     Post</a></li>
                         </ul>
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-3 mb-[30px]">
-                        <h3 class="font-lora font-normal text-[22px] leading-[1.222] text-primary mb-[20px] lg:mb-[30px]">
+                        <h3 class="font-lora font-normal text-[22px] leading-[1.222] text-primary mb-[20px] lg:mb-[30px]">x
                             Support<span class="text-secondary">.</span></h3>
                         <ul class="text-[16px] leading-none mb-[-20px]">
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="add-properties.html">Add Property</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="#">Terms &
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="add-properties.html">Add Property</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="#">Terms &
                                     Conditions</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="#">Help line</a>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="#">Help line</a>
                             </li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="agent.html">Our
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="agent.html">Our
                                     Agents</a></li>
-                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="#">features</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-primary" href="#">features</a></li>
                         </ul>
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-2 mb-[30px]">
@@ -103,6 +103,31 @@
 
     <!-- Activation JS -->
     <script src="{{asset('assets/js/main.js')}}"></script>
+    <script>
+        window.document.onkeydown = function(e) {
+  if (!e) {
+    e = event;
+  }
+  if (e.keyCode == 27) {
+    lightbox_close();
+  }
+}
+
+function lightbox_open() {
+  var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+  window.scrollTo(0, 0);
+  document.getElementById('light').style.display = 'block';
+  document.getElementById('fade').style.display = 'block';
+  lightBoxVideo.play();
+}
+
+function lightbox_close() {
+  var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+  document.getElementById('light').style.display = 'none';
+  document.getElementById('fade').style.display = 'none';
+  lightBoxVideo.pause();
+}
+    </script>
 
 </body>
 

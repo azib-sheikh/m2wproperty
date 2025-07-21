@@ -360,7 +360,7 @@
     <div class="container">
         <div class="grid grid-cols-12 gap-6 items-center">
             <div class="col-span-12 lg:col-span-6">
-                <span class="text-secondary text-tiny inline-block mb-2">Why Choose us</span>
+                <span class="text-primary text-tiny inline-block mb-2">Why Choose us</span>
                 <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-5 lg:mb-16 font-medium max-w-[500px]">Find the Latest Properties<span class="text-secondary">.</span></h2>
                 <div class="scene" data-relative-input="true">
                     <img data-depth="0.1" src="https://htmldemo.net/bery/bery/assets/images/about/about7.png" class="" loading="lazy" width="729" height="663" alt="about Image">
@@ -441,7 +441,7 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Orchid Casel de Paradise.</a></h3>
+                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Orchid Casel de Paradise.</a></h3>
                                         <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -540,7 +540,7 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Ruposibangla de parlosia.</a></h3>
+                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Ruposibangla de parlosia.</a></h3>
                                         <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -639,7 +639,7 @@
                                     </div>
 
                                     <div class="py-[20px] px-[20px] text-left">
-                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Sinomen Studio Palace.</a></h3>
+                                        <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Sinomen Studio Palace.</a></h3>
                                         <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">194 Mercer Street, 627 Broadway, New York</a></h4>
                                         <span class="font-light text-sm">Added: 25 November, 2021</span>
                                         <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -736,7 +736,15 @@
     </div>
 </section>
 <!-- Popular Properties end -->
-
+<div id="light">
+    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+    <video id="VisaChipCardVideo" width="600" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <!--Browser does not support <video> tag -->
+      </video>
+  </div>
+  
+  <div id="fade" onClick="lightbox_close();"></div>
 <!-- Video Section Start -->
 <section class="video-section mt-12">
     <div class="container">
@@ -747,15 +755,13 @@
                         <div class=" relative overflow-hidden" data-relative-input="true">
                             <img data-depth="0.02" src="https://htmldemo.net/bery/bery/assets/images/video/video-2.png" class="rounded-[24px] w-full" loading="lazy" width="507" height="349" alt="video image">
                         </div>
-                        <a href="https://www.youtube.com/watch?v=mSC6GwizOag" class="play-button bg-white text-white hover:text-primary absolute left-0 right-0 mx-auto top-1/2 -translate-y-1/2 hover:scale-105 hover:bg-primary w-[70px] h-[70px] md:w-[90px] md:h-[90px] flex 
-        flex-wrap z-[5] items-center justify-center opacity-100 shadow-[0px 4px 4px rgba(0, 0, 0, 0.25)] transition-all rounded-full group
-        
-        before:block before:absolute  before:bg-white before:opacity-80 before:shadow-[0px 4px 4px rgba(0, 0, 0, 0.25)] hover:before:bg-primary hover:before:opacity-80 md:before:w-[110px] md:before:h-[110px] before:w-[90px] before:h-[90px] before:rounded-full before:z-[-1]
-        " aria-label="play button">
+                        <button onclick="lightbox_open();"  class="play-button bg-white text-white hover:text-primary absolute left-0 right-0 mx-auto top-1/2 -translate-y-1/2 hover:scale-105 hover:bg-primary w-[70px] h-[70px] md:w-[90px] md:h-[90px] flex 
+        flex-wrap z-[5] items-center justify-center opacity-100 shadow-[0px 4px 4px rgba(0, 0, 0, 0.25)] transition-all rounded-full 
+        " >
                             <svg width="31" height="32" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="stroke-primary group-hover:stroke-white" d="M1.63861 10.764V6.70324C1.63861 1.66145 5.20893 -0.403178 9.57772 2.11772L13.1024 4.14812L16.6271 6.17853C20.9959 8.69942 20.9959 12.8287 16.6271 15.3496L13.1024 17.38L9.57772 19.4104C5.20893 21.9313 1.63861 19.8666 1.63861 14.8249V10.764Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </button>
                     </div>
 
                 </div>
@@ -821,7 +827,7 @@
                                 </div>
 
                                 <div class="py-[20px] px-[20px] text-left">
-                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Elite Garden Resedence.</a></h3>
+                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Elite Garden Resedence.</a></h3>
                                     <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">253 Montril Street, South Town, Miami</a></h4>
                                     <span class="font-light text-sm">Added: 25 November, 2021</span>
                                     <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -920,7 +926,7 @@
                                 </div>
 
                                 <div class="py-[20px] px-[20px] text-left">
-                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">De Parasiya Appartment.</a></h3>
+                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">De Parasiya Appartment.</a></h3>
                                     <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">18B Central Street, San Francisco</a></h4>
                                     <span class="font-light text-sm">Added: 25 November, 2021</span>
                                     <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -1019,7 +1025,7 @@
                                 </div>
 
                                 <div class="py-[20px] px-[20px] text-left">
-                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Duplex de Villa</a></h3>
+                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Duplex de Villa</a></h3>
                                     <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">194 Mercer Street, 627 Broadway, New York</a></h4>
                                     <span class="font-light text-sm">Added: 25 November, 2021</span>
                                     <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -1118,7 +1124,7 @@
                                 </div>
 
                                 <div class="py-[20px] px-[20px] text-left">
-                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Orchid Casel de Paradise.</a></h3>
+                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Orchid Casel de Paradise.</a></h3>
                                     <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">2846 West Side Avenue, New Jersey</a></h4>
                                     <span class="font-light text-sm">Added: 25 November, 2021</span>
                                     <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -1217,7 +1223,7 @@
                                 </div>
 
                                 <div class="py-[20px] px-[20px] text-left">
-                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Ruposibangla de parlosia.</a></h3>
+                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Ruposibangla de parlosia.</a></h3>
                                     <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">2381 Richards Avenue, Stockton, California</a></h4>
                                     <span class="font-light text-sm">Added: 25 November, 2021</span>
                                     <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -1316,7 +1322,7 @@
                                 </div>
 
                                 <div class="py-[20px] px-[20px] text-left">
-                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">Sinomen Studio Palace.</a></h3>
+                                    <h3><a href="properties-details.html" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-black transition-all font-medium">Sinomen Studio Palace.</a></h3>
                                     <h4><a href="properties-details.html" class="font-light text-[14px] leading-[1.75] underline">4658 Oakwood Avenue, New York</a></h4>
                                     <span class="font-light text-sm">Added: 25 November, 2021</span>
                                     <ul class="flex flex-wrap items-center justify-between text-[12px] mt-[10px] mb-[15px] pb-[10px] border-b border-[#E0E0E0]">
@@ -2226,7 +2232,7 @@
                             <img class="w-full h-full" src="https://htmldemo.net/bery/bery/assets/images/blog/post1.png" width="370" height="270" loading="lazy" alt="Tip’s about Real Estate Recent Conditions from Agent.">
                         </a>
                         <div>
-                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">James Alber on 22 December, 21</span>
+                            <span class="block leading-none font-normal text-[14px] text-black mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">James Alber on 22 December, 21</span>
                             <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Tip’s about Real Estate Recent Conditions from Agent.</a></h3>
                             <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
                         </div>
@@ -2236,7 +2242,7 @@
                             <img class="w-full h-full" src="https://htmldemo.net/bery/bery/assets/images/blog/post2.png" width="370" height="270" loading="lazy" alt="Importance of Build quality of modern Real Estate.">
                         </a>
                         <div>
-                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
+                            <span class="block leading-none font-normal text-[14px] text-black mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
                             <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Importance of Build quality of modern Real Estate.</a></h3>
                             <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
                         </div>
@@ -2246,7 +2252,7 @@
                             <img class="w-full h-full" src="https://htmldemo.net/bery/bery/assets/images/blog/post3.png" width="370" height="270" loading="lazy" alt="Importance of Build quality of modern Real Estate.">
                         </a>
                         <div>
-                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
+                            <span class="block leading-none font-normal text-[14px] text-black mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
                             <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Importance of Build quality of modern Real Estate.</a></h3>
                             <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
                         </div>
@@ -2269,7 +2275,7 @@
                         <h3 class="font-lora text-white text-[24px] sm:text-[30px] xl:text-[36px] leading-[1.277] mb-[10px]">Are you a Home Owner?</h3>
                         <p class="text-secondary leading-[1.5] tracking-[0.03em] mb-10">Put your email address and get listed.</p>
                         <form id="mc-form" action="#" class="relative w-full">
-                            <input id="mc-email" class="font-light text-white leading-[1.75] opacity-100 border border-secondary w-full lg:w-[395px] xl:w-[495px] h-[60px] rounded-[10px] py-[15px] pl-[15px] pr-[15px] sm:pr-[135px] focus:border-white focus:outline-none border-opacity-60 placeholder:text-[#E2E2E2] bg-transparent" type="text" placeholder="Enter your email here...">
+                            <input id="mc-email" class="font-light text-white leading-[1.75] opacity-100 border border-primary w-full lg:w-[395px] xl:w-[495px] h-[60px] rounded-[10px] py-[15px] pl-[15px] pr-[15px] sm:pr-[135px] focus:border-primary focus:outline-none border-opacity-60 placeholder:text-[#E2E2E2] bg-transparent" type="text" placeholder="Enter your email here...">
                             <button id="mc-submit" type="submit" class="text-white font-medium text-[16px] leading-none tracking-[0.02em] bg-secondary py-[17px] px-[20px] mt-5 sm:mt-0 rounded-[10px] hover:bg-white hover:text-primary transition-all sm:absolute sm:right-[4px] sm:top-1/2 sm:-translate-y-1/2">Get Listed</button>
                         </form>
                         <!-- mailchimp-alerts Start -->
